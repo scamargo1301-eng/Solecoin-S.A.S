@@ -46,10 +46,9 @@ a {
     gap: 30px;
 }
 
-.logo {
-    font-size: 25px;
-    font-weight: 800;
-    letter-spacing: 2px;
+.logos {
+    width: 10px;
+    height: auto;
 }
 
 .menu {
@@ -377,13 +376,13 @@ a {
 .contact-form {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 40px;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    gap: 7px;
+    gap: 2px;
 }
 
 .form-group label {
@@ -483,4 +482,62 @@ a {
     .section {
         padding: 70px 0;
     }
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+/* =========================
+   LOCATION - SOLECOIN
+========================= */
+
+.location-card {
+    margin-top: 35px;
+    padding: 25px;
+    background: #f5f8f5;
+    border: 1px solid #e2ebe4;
+    border-radius: 14px;
+}
+
+.location-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #1c2b22;
+}
+
+.location-card p {
+    margin-bottom: 12px;
+    color: #68756d;
+    font-size: 15px;
+}
+
+.location-card .location-name {
+    color: #217346;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.location-map {
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 1px solid #d7e0d9;
+}
+
+.location-map iframe {
+    display: block;
+}
+
+.location-link {
+    display: inline-block;
+    color: #217346;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.location-link:hover {
+    color: #185c37;
+    transform: translateX(4px);
 }
